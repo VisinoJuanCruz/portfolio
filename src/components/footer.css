@@ -1,0 +1,25 @@
+.contact-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+.contact-container i{
+    padding:15px;
+}
+
+@media (max-width: 450px) {
+  .contact-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .contact-container a {
+    margin: 5px; /* Espacio entre los botones */
+  }
+}

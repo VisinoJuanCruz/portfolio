@@ -1,0 +1,19 @@
+.skills-container {
+    list-style:none;
+    }
+   
+   
+   
+   .item-tecnologia{
+     display:flex;
+     align-items: center;  
+     justify-content: space-between;
+     position:relative;
+   
+   }
+   
+   
+   .stars{
+     display:flex;
+     align-self: flex-start;
+   }

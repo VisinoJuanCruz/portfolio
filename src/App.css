@@ -1,0 +1,75 @@
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7em;
+  padding:15px;
+  background-color: rgb(51, 58, 66);
+  
+}
+@media (max-width: 450px) {
+  body {
+    font-size: 0.5rem; /* Cambiar el tamaño de fuente */
+    padding: 10px;  /* Ajustar el espaciado */
+  }
+
+  .app-container{
+    max-width: 450px;
+  }
+}
+.up{
+  transition: transform 0.2s ease-in-out;
+
+}
+.up:hover{
+  transform: translateY(-15px);
+}
+
+.down{
+  transition: transform 0.2s ease-in-out;
+
+}
+.down:hover{
+  transform: translateY(+15px);
+}
+
+
+
+
+a:hover{
+  text-decoration: none;
+}
+
+
+.up-shadow {
+  transition: transform 0.2s ease-in-out,
+              box-shadow 0.2s ease-in-out;
+  transform: translateY(0); 
+  box-shadow: none; 
+}
+
+.up-shadow:hover {
+  transform: translateY(-15px); /* Levanta el elemento 15px hacia arriba */
+  box-shadow: 0px 0px 35px rgb(255, 204, 0); /* Aplica una sombra cuando se hace hover */
+  
+}
+
+.up-text{
+  transition: transform 0.2s ease-in-out,
+              box-shadow 0.2s ease-in-out,
+              color 0.2s ease-in-out,
+              text-shadow 0.2s ease-in-out;
+  transform: translateY(0); 
+  box-shadow: none; 
+}
+
+.up-text:hover {
+  transform: translateY(-15px); /* Levanta el elemento 15px hacia arriba */
+  color:yellow;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  
+}
+
+
+
